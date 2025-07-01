@@ -1,0 +1,8 @@
+sample_viewer
+data/*
+
+*~
+*.lock
+*.sock
+*.pyc
+__pycache__/*
