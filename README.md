@@ -6,7 +6,6 @@ WitMotion 9軸IMUセンサー用データ収集システム
 このプロジェクトは、WitMotion 9軸IMUセンサー（加速度、角速度、磁場、姿勢角）からデータを収集し、時系列ファイルに記録するシステムです。
 
 ## システム構成
-
 ```
 WitMotionセンサー → Modbus/RS485 → device_model.py → sensor_logger.py → データファイル
 ```

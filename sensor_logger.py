@@ -4,7 +4,7 @@ import device_model
 from os.path import dirname, abspath, join
 import time
 
-output_path = '/home/miku/logger/data/witsensor/%Y/%m/%Y%m%d_witsensor.raw'
+output_path = '/home/gb/logger/data/witsensor/%Y/%m/%Y%m%d_witsensor.raw'
 time_interval = 1  # 1秒間隔で記録
 file_header = '## Localtime  Unixtime  '
 file_header += 'AccX  AccY  AccZ  '
